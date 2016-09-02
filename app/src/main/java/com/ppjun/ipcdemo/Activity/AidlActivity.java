@@ -1,4 +1,4 @@
-package com.ppjun.ipcdemo;
+package com.ppjun.ipcdemo.Activity;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -12,6 +12,7 @@ import android.os.Message;
 import android.os.RemoteException;
 import android.util.Log;
 
+import com.ppjun.ipcdemo.R;
 import com.ppjun.ipcdemo.aidl.Book;
 import com.ppjun.ipcdemo.aidl.IBookManager;
 import com.ppjun.ipcdemo.aidl.IOnNewBookArrivedListener;

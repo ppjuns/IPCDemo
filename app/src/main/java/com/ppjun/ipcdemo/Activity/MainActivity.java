@@ -1,4 +1,4 @@
-package com.ppjun.ipcdemo;
+package com.ppjun.ipcdemo.Activity;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -13,6 +13,7 @@ import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.ppjun.ipcdemo.R;
 import com.ppjun.ipcdemo.service.MessengerService;
 
 public class MainActivity extends AppCompatActivity {
